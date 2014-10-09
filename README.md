@@ -8,12 +8,12 @@ github.com/vik-y/Data-Structures
 
 <li>Sorting Algorithms
 	<ol>
-	Completed
+	<u>Completed</u>
 	<li>Insertion Sort</li>
 	<li>Quick Sort</li>
 	</ol>
 	<ol>
-	Incomplete
+	<u>Incomplete</u>
 	<li>Counting Sort</li>
 	<li>Merge Sort</li>
 	<li>Bucket Sort</li>
