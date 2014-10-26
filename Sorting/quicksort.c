@@ -1,5 +1,6 @@
 /* Quicksort - by Vikas Yadav
  * Reference - http://www.geeksforgeeks.org/iterative-quick-sort/
+ * See optimization techniques using stack given in the geeksforgeeks page
  */
 
 #include <stdio.h>
@@ -12,7 +13,7 @@ void swap(int *a, int *b){
   *b = temp;
 }
 
-int partition(int a[10], int start, int end
+int partition(int a[10], int start, int end){
   //NOTE: Start and End are absolute index -> starting from 0 ;
   //I took the pivot at end, pivot can be taken at the beginning also with some modification
   //in the code
