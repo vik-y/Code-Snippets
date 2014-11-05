@@ -3,7 +3,7 @@
 
 e.g
 Suppose we have 4 nodes, so to define connections between them we can use
-   0 1 2 3 4
+<br>   0 1 2 3 4<br>
 
 0| 0 0 0 0 0<br>
 1| 1 0 1 0 1<br>
