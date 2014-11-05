@@ -1,6 +1,8 @@
-//Name : T.Kaushik
-//Sorting : Bubble Sort
-//Roll no : IMT2013054
+/*
+ * Bubble Sort 
+ * Author - Kaushik Turlapaty
+ * Complexity Order n^2
+ */
 #include <stdio.h>
 int main()
 {
