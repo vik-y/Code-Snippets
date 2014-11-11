@@ -40,5 +40,3 @@ for i in x:
 f.write(st) #Saving the top answer into stack.html file
 f.close()
 webbrowser.get('google-chrome').open_new('stack.html') #Opening the file in web browser
-
-print resp.read()
