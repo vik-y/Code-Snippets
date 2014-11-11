@@ -43,12 +43,12 @@ for(i=1;i<ar_size;i++){
 
 
 int main(void) {
-		int _ar_size;
-		scanf("%d", &_ar_size);
-		int _ar[_ar_size], _ar_i;
-		for(_ar_i = 0; _ar_i < _ar_size; _ar_i++) {
-			scanf("%d", &_ar[_ar_i]);
-		}
-		insertionSort(_ar_size, _ar);
-		return 0;
+	int _ar_size;
+	scanf("%d", &_ar_size);
+	int _ar[_ar_size], _ar_i;
+	for(_ar_i = 0; _ar_i < _ar_size; _ar_i++) {
+		scanf("%d", &_ar[_ar_i]);
+	}
+	insertionSort(_ar_size, _ar);
+	return 0;
 }
