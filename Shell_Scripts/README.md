@@ -49,7 +49,20 @@ Sample Output
 ```
 
 
-###Ways to Search for a file in your present Directory
+###Ways to Search for a file from Terminal
+If you want to search for a file in some directory then try this
 ```
 find "directory_name" -name "filename"
 ```
+
+If you want to find all files of some type in the some directory then try
+```
+find "directory_name" -name "*.filetype"
+```
+Here filetype is the type of files which you want to look for
+```
+Example
+-------
+find . -name "*.txt"
+```
+This returns all the file of txt type present in the directory. Replace "." by any directory name.
