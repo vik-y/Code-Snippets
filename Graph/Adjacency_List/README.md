@@ -1,4 +1,4 @@
-##Ways to make an Adjacency List
+##Ways to make an Adjacency Matrix 
 1. Defining a 2D Matrix to represent the nodes
 
 e.g
@@ -17,6 +17,10 @@ a connection between 0-4 then we can get that in o(1) constant time. </p>
 
 The work around to memory constraints is using the linked list method, but again, there all the queries
 might not be O(1). See reference for detailed information. 
+
+
+##Ways to make an Adjacency List (Using Linked List)
+<p>Using adjacency matrix requries lots of space, you need to use memory even if you are not using it. Linked list decreases the memory complexity but it then the look up time of an edge increases. 
 
 
 ##Reference:
