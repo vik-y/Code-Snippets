@@ -11,32 +11,32 @@
 #include <stdlib.h>
 
 void insertionSort(int ar_size, int ar[100]){
-int i;
-int j;
-int temp;
-int new;
+	int i;
+	int j;
+	int temp;
+	int new;
 
-for(i=1;i<ar_size;i++){
-	j=i;
-	while(j>0 && ar[j-1]>ar[j]){
-		//till i array is sorted (because of the way insertion sort works)
-		//We will keep shifting elements to the right till the new element fits
-		//inside the sorted list
-		temp = ar[j-1];
-		ar[j-1] = ar[j];
-		ar[j] = temp;
-		j--;
-	}
-	for(new=0;new<ar_size;new++){
-		printf("%d", ar[new]);
-		if(new!=ar_size-1){
-			printf(" ");
+	for(i=1;i<ar_size;i++){
+		j=i;
+		while(j>0 && ar[j-1]>ar[j]){
+			//till i array is sorted (because of the way insertion sort works)
+			//We will keep shifting elements to the right till the new element fits
+			//inside the sorted list
+			temp = ar[j-1];
+			ar[j-1] = ar[j];
+			ar[j] = temp;
+			j--;
 		}
-		else{
-			printf("\n");
+		for(new=0;new<ar_size;new++){
+			printf("%d", ar[new]);
+			if(new!=ar_size-1){
+				printf(" ");
+			}
+			else{
+				printf("\n");
+			}
 		}
 	}
-}
 
 }
 

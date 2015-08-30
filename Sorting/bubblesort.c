@@ -1,5 +1,5 @@
 /*
- * Bubble Sort 
+ * Bubble Sort
  * Author - Kaushik Turlapaty
  * Complexity Order n^2
  */
@@ -13,24 +13,23 @@ int main()
 		count++;
 	}
 	number_of_elements=count;
-	
+
 		for (i = 0 ; i <  number_of_elements-1  ; i++)
 		{
 			for (j = 0 ; j < number_of_elements - i-1 ; j++)
 			{
-			if (array[j] > array[j+1])
-			{
-				/* Swapping */
-				temp = array[j];
-				array[j] = array[j+1];
-				array[j+1] = temp;
-			}		
-			}	
-		}	
+				if (array[j] > array[j+1])
+				{
+					/* Swapping */
+					temp = array[j];
+					array[j] = array[j+1];
+					array[j+1] = temp;
+				}
+			}
+		}
 		 printf("Sorted list in ascending order:\n");
         for ( i = 0 ; i < number_of_elements ; i++ )
 	{
                 printf("%llu\n", array[i]);
-	}	
+	}
 }
-
